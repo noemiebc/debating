@@ -157,18 +157,6 @@ section{
 
 }
 
-#parisiv{
-    margin-top: 50px;
-    width:70%; 
-    float: right; 
-    margin-right: 15%;
-    padding: 20px;
-    box-shadow: 8px 8px 12px #aaa;
-    background: #DCDCDC;
-    margin-bottom: 50px;
-
-}
-
 #debating{
     margin-top: 50px;
     width:80%; 
