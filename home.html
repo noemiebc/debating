@@ -22,10 +22,10 @@
 					<li><a href="home.html">Home&nbsp;&nbsp;</a></li>
 					<li><a href="about_us.html">&nbsp;&nbsp;About Us&nbsp;&nbsp;</a></li>
 					<li><a href="debating.html">&nbsp;&nbsp;Debating&nbsp;&nbsp;</a></li>
-					<li><a href="#">&nbsp;&nbsp;The Paris IV&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-					<li><a href="#">&nbsp;&nbsp;Events&nbsp;&nbsp;</a></li>
-					<li><a href="#">&nbsp;&nbsp;Articles&nbsp;&nbsp;</a></li>
-					<li><a href="#">Telecom ParisTech</a></li>
+					<li><a href="parisiv.html">&nbsp;&nbsp;The Paris IV&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+					<li><a href="events.html">&nbsp;&nbsp;Events&nbsp;&nbsp;</a></li>
+					<li><a href="articles.html">&nbsp;&nbsp;Articles&nbsp;&nbsp;</a></li>
+					<li><a href="telecom.html">Telecom ParisTech</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -68,88 +68,7 @@
 	</div>
 </div>
 </div>
-<!--Javascript
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js">
-var timer = new Object;
- 
-$(function(){
-	var $Slides = $("#slides");
-	var _step = $Slides.find("li:first").width();
-	$Slides
-		.data("currentSlide",1)
-		.data("nbSlides",$Slides.find("li").size());
-	$Slides
-		.find("li:last")
-			.clone()
-			.prependTo("#slides");
- 
-	$Slides
-		.find("li:first")
-			.next()
-			.clone()
-			.appendTo("#slides");
- 
-	$Slides		
-		.find("li:first")
-			.addClass("clone")
-		.end()
-		.find("li:last")
-			.addClass("clone")
-		.end()
-		.css({marginLeft:-_step});
- 
-	$Slides.width($Slides.find("li").size()*_step);
- 
-	$("#nextSlide").bind("click",nextSlide);
-	$("#prevSlide").bind("click",prevSlide);
- 
-	window.setTimeout(slider,5000);
- 
-})
 
-function nextSlide(){
-	var $Slides = $("#slides");
-	$Slides.animate(
-		{marginLeft:"-=500px"},
-		1000,
-		function(){
-				$Slides.data("currentSlide",$Slides.data("currentSlide")+1);
-				if($Slides.data("currentSlide") > $Slides.data("nbSlides")){
-					$Slides
-						.data("currentSlide",1)
-						.css({marginLeft:"-500px"});
- 
-				}
-				window.clearTimeout(timer);
-				timer = window.setTimeout(slider,5000);
-			}
-	);
-}
- 
-function prevSlide(){
-	var $Slides = $("#slides");
-	$Slides.animate(
-		{marginLeft:"+=500px"},
-		1000,
-		function(){
-				$Slides.data("currentSlide",$Slides.data("currentSlide")-1);
-				if($Slides.data("currentSlide") == 0){
-					$Slides
-						.data("currentSlide",$Slides.data("nbSlides"))
-						.css({marginLeft:-(500*$Slides.data("currentSlide"))});
-				}
-				window.clearTimeout(timer);
-				timer = window.setTimeout(slider,5000);
-			}
-	);
-}
-
-function slider(){
-	nextSlide();
-	window.setTimeout(slider,5000);
-}
-</script>
-<!Le Slider fin -->
 
 		<section>
 
@@ -160,7 +79,7 @@ function slider(){
 				<img src="pictures/oxford.jpg", style="width: 80%; margin-left: 10%" />
 				<p>&nbsp;&nbsp;As you might have heard about it, two teams and one judge from Telecom Paristech went to the Oxford IV last weekend (9th-11th of November of 2013). The Oxford IV is the largest and most prestigious debating competition on the UK University circuit. It is hosted by the famous Oxford Union. During this debating tournament, we rubbed shoulders with students from Princeton, Yale, Stanford, Cornell, Oxford, Cambridge, LSE, UCL, SOAS…And our teams ranked 1rst and 3rd in the last round. We also advertised the Paris Open (held at Télécom Paristech in April of 2013 ) and we recruited Talheel Lateef, a debating officer of the Cambridge Union Society, to give a an expert World Style debating workshop at Telecom Paristech. </p>
 				<p>&nbsp;&nbsp;And last but not least, we enjoyed nice feisty and brilliant debates and of course, we tried to make the most of our cultural immersion in the oldest academic city. </p>
-				<p><a href="#">Read More</a></p>
+				<p><a href="articles.html">Read More</a></p>
 
 
 			</div>
@@ -176,9 +95,9 @@ function slider(){
 		</section>
 		<footer>
 			<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Contact</a></li>
-					<li><a href="#">Telecom ParisTech</a></li>
+					<li><a href="home.html">Home</a></li>
+					<li><a href="mailto:noemie.bristol@telecom-paristech.fr">Contact</a></li>
+					<li><a href="telecom.html">Telecom ParisTech</a></li>
 			</ul>
 			<div id="facebook_twitter">
                     	<a href="https://www.facebook.com/pages/Telecom-ParisTech-Debating-Society/126206078629"><img src="pictures/facebook.png"></a>

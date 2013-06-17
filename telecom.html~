@@ -34,13 +34,17 @@
 		<section>
 
 			
-			<div id="parisiv">
-				<h2>The Paris IV</h2>
-				<br />
-				<p>Télécom ParisTech organises every year a debating tournament in Paris along with other French 'Grandes Écoles' and Universities ( Paris Descartes, Assas, Sciences Po and Centrale).</p>
-				<p>If you want more informations about this tournament please check out our <a href="http://www.paris-iv.com/">website.</p>
+			<div id="about">
+				<h2>Telecom ParisTech</h2>
 				
-				<p style="text-align:center"><img src="pictures/parisiv.jpg" style="width: 500px" /></p>
+				
+				<p>Telecom ParisTech is one of the top French engineering schools known as "Grandes Ecoles". Originally intended to form engineers in telecomunications, it now offers varied formations ranging from optics to mathematics, computer sciences, artificial intelligence or Signal processing.</p>
+				<br />
+    				<p><a href="http://www.telecom-paristech.fr/nc/formation-et-innovation-dans-le-numerique.html">Telecom ParisTech</a> is a founding member of ParisTech, a collective entity that includes eleven of the most prestigious French institutes of education and research.ParisTech covers almost the whole range of engineering science and technology, forming the equivalent of an international dimension university.</p>
+				<h2>Telecom ParisTech and Debating</h2>
+				<p>Telecom ParisTech is one of the top French engineering schools known as "Grandes Ecoles". Originally intended to form engineers in telecomunications, it now offers varied formations ranging from optics to mathematics, computer sciences, artificial intelligence or Signal processing.</p>
+				
+				<p style="text-align:center"><img src="pictures/tpt.jpg" style="width: 25%" /></p>
 
 
 			</div>
@@ -48,7 +52,7 @@
 		<footer>
 			<ul>
 					<li><a href="home.html">Home</a></li>
-					<li><a href="mailto:noemie.bristol@telecom-paristech.fr">Contact</a></li>
+					<li><a href="#">Contact</a></li>
 					<li><a href="telecom.html">Telecom ParisTech</a></li>
 			</ul>
 			<div id="facebook_twitter">
