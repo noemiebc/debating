@@ -66,7 +66,7 @@ header
     background: #DCDCDC;
 }
 
-#titre_principel
+#titre_principal
 {
     display: inline-block;
 
@@ -154,6 +154,54 @@ section{
     box-shadow: 8px 8px 12px #aaa;
     background: #DCDCDC;
     margin-bottom: 50px;
+}
+
+#budapest{
+    margin-top: 0px;
+    width:50%; 
+    float: right; 
+    margin-right: 15%;
+    padding: 20px;
+    box-shadow: 8px 8px 12px #aaa;
+    background: #DCDCDC;
+    margin-bottom: 50px;
+
+}
+
+#trinity{
+    margin-top: 0px;
+    width:50%; 
+    float: right; 
+    margin-right: 15%;
+    padding: 20px;
+    box-shadow: 8px 8px 12px #aaa;
+    background: #DCDCDC;
+    margin-bottom: 50px;
+
+}
+
+#oxford{
+    margin-top: 0px;
+    width:50%; 
+    float: right; 
+    margin-right: 15%;
+    padding: 20px;
+    box-shadow: 8px 8px 12px #aaa;
+    background: #DCDCDC;
+    margin-bottom: 50px;
+
+}
+
+#left_column{
+    margin-top: 50px;
+    width:20%; 
+    float: left; 
+    margin-left: 5%;
+    padding: 20px;
+    box-shadow: 8px 8px 12px #aaa;
+    background: #DCDCDC;
+    margin-bottom: 50px;
+    position: fixed;
 
 }
 
@@ -182,14 +230,18 @@ section{
 }
 
 #bp{
-    height:180px;
-    float: left;
+    height:200px;
     margin-right: 15px;
+    margin-left: 15px;
 }
 
+
+
 #bp_text{
-    float: right;
+    float: left;
     margin-left: 10px;
+    clear: both;
+    text-align: left;
 }
 
 #fda{
